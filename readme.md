@@ -28,7 +28,7 @@ The original project structure can be found on <a target="_blank" href="https://
 Should you attempt to use this boilerplate on a linux-based system other than Ubuntu, remove the list of dependencies in the package.json file, and re-download them using:
 
 ```
-npm install --save grunt-open grunt grunt-contrib-concat grunt-contrib-connect grunt-contrib-watch```
+npm install --save grunt-open grunt grunt-contrib-concat grunt-contrib-connect grunt-contrib-watch
 ```
 
 Then re-run
