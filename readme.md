@@ -25,6 +25,18 @@ I would highly recommend double checking that the repo phaser.min.js file versio
 
 The original project structure can be found on <a target="_blank" href="https://github.com/gamecook/phaser-project-template">Gamecook's repo</a>.
 
+Should you attempt to use this boilerplate on a linux-based system other than Ubuntu, remove the list of dependencies in the package.json file, and re-download them using:
+
+```
+npm install --save grunt-open grunt grunt-contrib-concat grunt-contrib-connect grunt-contrib-watch```
+```
+
+Then re-run
+
+```
+grunt
+```
+
 ##Issues with using Grunt and Phaser on bash on Ubuntu on Windows
 For anyone interested, the original issue I had trying to run grunt was very similar to the one found <a target="_blank" href="https://github.com/feathersjs/generator-feathers-plugin/issues/8">here</a>. And its <a target="_blank" href="https://github.com/Glavin001/generator-feathers-plugin/commit/39f1a18922abb99ef47d52a7ee18955a53a2c7ef">solution</a> was a single line change located in the Gruntfile.js file.
 
